@@ -287,11 +287,4 @@ class SCLAlertViewStyleKit: NSObject {
     }
     
     
-    
-    
-    
-    
-    
-    
-    
 }

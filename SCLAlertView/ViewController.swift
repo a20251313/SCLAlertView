@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         var alert = SCLAlertView();
         alert.addButton("First BUtton", target: self, selector: "clickButton");
         alert.addButton("Second Button", target: self, selector: "clickButton");
-        alert.showSucces(self, title: kSuccessTitle, subTitle: kAttributeTitle, closeButton: "Done", duration: 0);
+        alert.showError(self, title: kSuccessTitle, subTitle: kAttributeTitle, closeButton: "Done", duration: 0);
     }
 
     override func didReceiveMemoryWarning() {
